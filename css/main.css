@@ -20,7 +20,7 @@ body {
   margin: 0.1rem auto 0;
   padding: 0.8rem 0 0.4rem 0.8rem;
   font-size: 2.4rem;
-  border-bottom: 0.2rem solid #b86767;
+  border-bottom: 0.4rem solid #b86767;
 }
 .top-nav {
   margin: auto 1rem;
@@ -69,8 +69,62 @@ body {
 
 /* main styling */
 
-.main-container {
-  /* background-color: rgba(110, 186, 192, 0.592); */
+.main {
+  /* flex-direction: column; */
+}
+
+.hero-section {
+  max-width: 90%;
+  margin: 2rem auto 8rem;
+  display: flex;
+}
+
+.hero-left {
+  max-width: 60%;
+}
+
+.main-img {
+  padding: 4rem;
+  width: 52%;
+  height: auto;
 }
 
 /* Footer styling */
+
+.footer-container {
+  border-top: 0.4rem solid #b86767;
+  border-bottom: 0.4rem solid #b86767;
+  background-color: rgba(211, 202, 189, 0.818);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.source {
+  font-style: italic;
+  padding: 1rem 1rem 0.2rem 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.source-link {
+  width: 80%;
+}
+
+.source-link a,
+.footer-container p {
+  text-decoration: none;
+  color: black;
+  padding-left: 4rem;
+}
+
+.footer-container p a {
+  color: black;
+}
+
+.source-link a:hover,
+.footer-container p a:hover {
+  text-decoration: underline;
+  color: #b86767;
+}
+.copy-write {
+}
